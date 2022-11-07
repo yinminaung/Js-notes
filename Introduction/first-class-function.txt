@@ -1,0 +1,16 @@
+How can we say that a programming language support first-class function? 
+            In a programming langauge, if functions in that language are treated
+    like any other variable. For example, passing functions as arguments to other
+    functions, functions returned by another functions and functions assigned as
+    a value to a variable or storing in a data structure. 
+
+    source - https://developer.mozilla.org/en-US/docs/Glossary/First-class_Function
+
+
+Which programming langauges have first-class function?
+    - a necessity for functional programming languages such as Erlang, Scheme, ML, 
+    Haskell, F#, Scala
+    - scripting languages including Perl, Python, PHP, Lua, JavaScript & lo
+    - C#
+
+    source - https://en.wikipedia.org/wiki/First-class_function
