@@ -1,0 +1,49 @@
+Program that computer can understand 
+
+00110001 00000000 00000000 // store number 0 in memory location 0
+00110001 00000001 00000001 // store number 1 in memory location 1
+00110011 00000001 00000010 // store value of memory location 1 in memory location 2
+01010001 00001011 00000010 // subtract number 11 from value in memory location 2
+00100010 00000010 00001000 // if value in memory location 2 is number 0, continue with instruction 9
+01000011 00000001 00000000 // Add value of memory location 1 to meory location 0.
+01000001 00000001 00000001 // Add number 1 to value of memory location 1
+00010000 00000010 00000000 // Continue with instruction 3
+01100010 00000000 00000000 // Output the value of memory location 0
+
+-----------------------------------------------------------------------------
+program that is readable, but very detailed
+
+  Set "total" to 0.
+  Set "count" to 1. 
+[loop]
+  Set "compare" to "count".
+  Subtract 11 from "compare"
+  If "compare" is zero, continue at [end]
+  Add 1 to "count".
+  Continue at [loop]
+[end]
+  Output "total".
+
+-------------------------------------------------------------------------------
+Program that is readable and concise
+
+let local = 0, count= 1;
+while (count <= 10) {
+    total += count;
+    count++;
+}
+console.log(total)
+
+------------------------------------------------------------------------------
+Program if we have convenient operations range and sum available
+
+console.log(sum(range(1, 10)));
+
+------------------------------------------------------------------------------
+
+What is a good programming language?
+  - allows programmers to instruct the computer on higher level
+  - helps omit the details
+  - provide the building blocks(e.g. while, if, return, ...)
+  - allows progrmmers to define new building blocks 
+  - makes these blocks easy to compose 
