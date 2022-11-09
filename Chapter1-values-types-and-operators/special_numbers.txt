@@ -1,0 +1,13 @@
+What are the special numbers in JS?
+    Infinity, -Infinity and NaN 
+
+    Infinity - 1 = Infinity
+    Infinity - Infinity = NaN 
+    0 / 0 = NaN 
+
+How are they special? 
+    - They are considered numbers but don't behave like normal numbers. 
+
+How does JS consider a number is infinity? 
+    - You can see the largest number by using Number.MAX_VALUE. 
+
