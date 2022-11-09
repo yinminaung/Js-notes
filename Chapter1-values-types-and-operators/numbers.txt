@@ -1,0 +1,17 @@
+How many bytes does a number take? 
+    - 8 bytes (64 bits)
+
+How this represents numbers (integers and floats)?
+    - with 64 bits, we can specify 18 quintillion (an 18 with zeros after it)
+    - 2**64 = 18446744073709551616
+    - but not all whole number less than 18 quintillion fit in a JS number. 
+    - negative numbers and floating points have to be represented. 
+    - The actual maximum whole number that can be stored is more in the range of 9 quadrillion(15 zeros);
+    Resources to watch
+    - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number#number_encoding
+    - https://www.bing.com/videos/search?q=mantissa&ru=%2fvideos%2fsearch%3fq%3dmantissa%26FORM%3dHDRSC3&view=detail&mid=7DCAF57309CD77B5D9297DCAF57309CD77B5D929&rvsmid=65B47FE0714C25DBC77B65B47FE0714C25DBC77B&FORM=VDQVAP 
+
+By theory, how many numbers can you represent in a typical computer? (neglect other programs)
+    - memory available = 4 GB = 4 * 10^9 bytes 
+    - memory taken by a number = 8 bytes 
+    - 5 * 10^8 numbers can be represented. 
