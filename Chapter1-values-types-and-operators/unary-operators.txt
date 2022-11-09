@@ -1,0 +1,7 @@
+What is a unary operator?
+    Operators that take only one value or operands are called unary operators. 
+
+What are the examples of unary operators in JavaScript?
+    e.g. console.log(- (10-1)) // "-" is both unary and binary operator. 
+    e.g. console.log(typeof 4.5)
+

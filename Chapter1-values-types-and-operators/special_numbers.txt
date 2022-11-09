@@ -11,3 +11,8 @@ How are they special?
 How does JS consider a number is infinity? 
     - You can see the largest number by using Number.MAX_VALUE. 
 
+What kinds of operations result in NaN? 
+    1. Failed number conversion
+    2. Math operations where the result is not a real number. 
+    3. Indeterminate form (e.g. 0 * Infinity, 1 ** Infinity, Infinity / Infinity)
+    4. A method or expression whose operand is or get coerced to NaN. (e.g. 7 ** NaN)

@@ -1,0 +1,31 @@
+// SHORT-CIRCUITING OF LOGICAL OPERATORS 
+
+
+- && and || handles values of different types in a peculiar way 
+- they will convert the value on their left side to Boolean type
+    in order to decide what to do 
+- Depending on the operator and the result of the converstion, they will 
+    return either the original left-hand value or the right-hand value 
+
+
+|| operator returns the original left operand when that can be converted to true and 
+    and returns right operand when false 
+
+e.g. console.log(null || "user") -> user 
+e.g. console.log("Agnes" || "user") -> "Agnes"
+
+
+&& operator returns the orginal left operand when that can be converted to false and returns the right 
+    operand when the left operand is true.
+
+e.g. console.log(null && "user") -> null
+e.g. console.log("user" && null) -> null 
+
+
+Another important property
+    - the right operand is evaluated only when necessary. 
+
+    - true || X -> no matter what X is, the result is true and X is never evaluated. 
+    - false || X -> X is never evaluated. 
+
+    - Python also have the same property. 

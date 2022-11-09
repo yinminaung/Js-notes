@@ -1,0 +1,22 @@
+How can you specify a string?
+    "How are you?" (with double quotes)
+    'How are you?' (with single quotes)
+    `How are you?` (with backticks)
+
+How does JS represent a string?
+    - The String type represents textual data and is encoded as a sequence of 16-bit unsigned integer
+    values representing UTF-16 code units. (UTF - Unicode Transformation Format)
+    - This means we can specify 2**16 characters. 
+    - Each element in the string occupies a position in the string. 
+    - The first element is at index 0, the next at index 1, and so on. 
+
+    - Since there are more than 2**16 characters, some characters(e.g. emojis) take two elements to combine 
+    to one character. 
+    - So the length of a string is the number of UTF-16 code units in it, which may not 
+    correspond to the actual number of Unicode characters. 
+    More at https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures#string_type  
+
+
+How are backtict-quoted strings useful?
+    Backtick-quoted strings, usually called template literals, can embed other values. 
+    e.g. `half of 100 is ${100 / 2}`

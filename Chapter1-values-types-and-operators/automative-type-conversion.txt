@@ -1,0 +1,30 @@
+console.log(8 * null)
+console.log("5" - 1)
+console.log("5" + 1)
+console.log("five" * 2)
+console.log(false == 0)
+console.log(10 + null)
+
+What is type coercion?
+    When an operator is applied to the wrong type of value, JavaScript will quickly convert to 
+    the types it needs using a set of rules. THis is called type coercion. 
+
+Useful tips about NaN
+    When something doesn't map to a number in an obvious way (e.g. undefined) is coverted to 
+    a number, you get a value NaN. 
+    Further arithmetic operations on NaN keep production NaN. 
+    So, if you find yourself getting one, look for accidental type convesions. 
+
+
+
+Rules for converting strings and numbers to Boolean 
+    0, NaN, "" -> false 
+    others -> true 
+
+
+
+
+
+
+
+

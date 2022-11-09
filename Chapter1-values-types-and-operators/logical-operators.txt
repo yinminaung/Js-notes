@@ -1,0 +1,16 @@
+&& , ||, ! 
+
+true && true -> true 
+otherwise, false 
+
+
+false || false -> false
+otherwise, true 
+
+!true -> false
+!false -> true 
+
+        --- Conditional operator or ternary operator ---
+
+console.log(true ? 1 : 2) will results in 1
+console.log(false ? 1 : 2) will results in 2

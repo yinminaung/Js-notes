@@ -1,0 +1,22 @@
+// true or false 
+
+3 > 2
+2 < 3
+3 => 4
+4 <= 10
+3 != 3
+
+There is only one value in JavaScript that is not equal to itself, and this is NaN. 
+
+    NaN == NaN results in false 
+
+Why? 
+    NaN is supposed to denote the result of a nonsensical computation, and as such, it isn't 
+    equal to the result of any other nonsensical computations. 
+
+When using ==, 
+    when null or undefined occurs on either side of the operator, it produces true only if both
+    sides are one of null or undefined. 
+    null == undefined -> true
+    null == 0 -> false
+

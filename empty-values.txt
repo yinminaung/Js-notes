@@ -1,0 +1,6 @@
+// null and underfined 
+
+- they are used to denote the absence of a meaningful value 
+- they are themselves values, but carry no information
+
+What are the differences between null and undefined? 
