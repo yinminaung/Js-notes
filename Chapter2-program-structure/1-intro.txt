@@ -1,0 +1,9 @@
+1. Expressions and Statements
+2. Bindings or Variable
+3. The Environment
+4. Functions 
+5. Control flow 
+    - Conditional Execution ( if-else / switch-case-break)
+    - Looping (for loop/ while loop / do-while loop)
+
+6. Comments 
