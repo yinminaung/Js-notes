@@ -1,0 +1,12 @@
+1.  Defining a function
+2.  Binding and scopes
+3.  Nested Scope 
+4.  Functions and Values
+5.  Declaration Notation
+6.  Arrow Functions 
+7.  The Call Stack 
+8.  Opitional Arguments
+9.  Closure
+10. Recursion
+11. Growing Functions 
+12. Functions and Side effects 
