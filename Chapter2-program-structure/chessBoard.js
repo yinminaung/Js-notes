@@ -15,14 +15,20 @@ When you have a program that generates this pattern, define a binding size
 = 8 and change the program so that it works for any size, outputting a grid
 of the given width and height.
 */
-
+const size = 9;
 let myStr = "";
-const size = 8;
 
 function isOdd(num) {
-    return num % 2 == 0;
+    return num % 2 != 0;
 }
 
-for (let i = 1; i <= size; i++) {
-    // update your code here!
+for (let i = 1; i<= size; i++) {
+    if (isOdd(i)) {
+        myStr += " ";
+    }
+    for(let j = 1; j<= size /2; j++) {
+        myStr += "# ";
+    }
+    myStr += "\n";
 }
+console.log(myStr);
