@@ -10,3 +10,6 @@
 10. Recursion
 11. Growing Functions 
 12. Functions and Side effects 
+
+keywords: 
+    global, local, lexical scoping, 
