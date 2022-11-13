@@ -6,7 +6,9 @@ const square1 = function(x) {
     return x * x;
 }
 
-// second style
+// second style - aka function declaration 
+// it allows hoisting
+// order of the functions is not necessary
 function square2(x) {
     return x * x;
 }
