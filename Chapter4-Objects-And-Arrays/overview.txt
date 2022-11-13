@@ -1,0 +1,13 @@
+1. Data sets
+2. Properties
+3. Methods
+4. Objects
+5. Mutability
+6. Computing correlation
+7. Array loops
+8. Further Arraylogy
+9. Strings and their Properties
+10. Rest parameters
+11. Math objects 
+12. JSON 
+13. Summary
